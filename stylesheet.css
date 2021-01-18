@@ -1,0 +1,47 @@
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    width: 100%;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.accent {
+    color: #0e4772;
+}
+
+.book {
+    border: 1px solid lightgray;
+    width: 275px;
+    height: 400px;
+    margin: 0 25px 25px 0;
+}
+
+@media (min-width: 680px) {
+    .flex-container {
+        display: flex;
+        margin-top: 25px;
+    }
+}
+
+.copyright {
+    color: #A32380;
+    font-weight: bold;
+}
